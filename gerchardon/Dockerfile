@@ -1,3 +1,3 @@
 FROM ubuntu
 
-RUN apt-get update && apt-get install curl vim git -y && apt-get clean
+RUN apt-get update && apt-get install curl git -y && apt-get clean
